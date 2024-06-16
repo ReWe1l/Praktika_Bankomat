@@ -9,7 +9,9 @@ using namespace std;
 
 class BANC {
 public:
-    map<int, int> withdraw(int amount);// Метод withdraw класса BANC, возвращает map с целочисленными ключами и значениями, принимает один параметр - сумму для снятия.
+    map<int, int> withdraw(int amount); // Метод withdraw класса BANC, возвращает map с целочисленными ключами и значениями, принимает один параметр - сумму для снятия.
 };
+
+int vivod();
 
 #endif
